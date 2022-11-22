@@ -5,14 +5,6 @@ import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 
 const API_URL = "https://www.omdbapi.com?apikey=bdef8e5f";
-const movie1 = {
-  Title: "Vikram",
-  Year: "2022",
-  imdbID: "tt9179430",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMDRiOWNjYjUtMDI0ZC00MDMyLTkwZDItNTU5NWQ1NjEyNGYxXkEyXkFqcGdeQXVyMTIyNzY0NTMx._V1_SX300.jpg",
-};
 
 const App = () => {
   const [movies, setMovies] = useState([]);
